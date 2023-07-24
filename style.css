@@ -1,0 +1,115 @@
+* {
+    font-family:'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+nav {
+    margin: 44px 0 144px 76px;
+}
+
+a {
+    font-weight: 600;
+    word-spacing: 10px;
+    line-height: 29px;
+    font-size: 24px;
+    color: #989D9C;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.botao-nav {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    width: 130px;
+    height: 41px;
+    border: none;
+    background: #665AE1;
+    border-radius: 20.5px;
+    color: #ffffff;
+    cursor: pointer;
+    
+}
+
+.logo {
+    width: 568px;
+    height: 500px;
+    margin-left: 125px;
+    display: inline-block;
+}
+
+section {
+    display: inline-block;
+    margin-left: 30px;
+    
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 122px;
+    color: #515151;
+}
+
+h2{
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 71px;
+    color:#515151;
+}
+
+p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #848484;
+    width: 515px;
+    margin-top: 32px;
+    margin-bottom: 65px;
+}
+
+.botao-main {
+    background: #adff00;
+    box-shadow:0px 4px 4px 0px #00000040;
+    border: none;
+    width: 239px;
+    height: 64px;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    cursor: pointer;
+    color: #000000;
+}
+
+a:hover {
+    opacity: 0.5;
+    color: #665AE1;
+}
+
+a:active {
+    opacity: 0.9;
+    color: #adff00;
+}
+
+.botao-nav:hover {
+    opacity: 0.5;
+}
+
+.botao-nav:active {
+    opacity: 0.9;
+    color: #adff00;
+}
+
+.botao-main:hover {
+    opacity: 0.5;
+    color: #665AE1;
+}
+
+.botao-main:active {
+    opacity: 0.9;
+    color: #515151;
+}
